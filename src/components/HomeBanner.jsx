@@ -38,7 +38,8 @@ const HomeBanner = () => {
             setIndex((prev) => (prev + 1) % slides.length);
         }, 5000);
         return () => clearInterval(interval);
-    }, []);
+    }, [slides.length]); // ✅ added dependency
+
 
     // Typing effect for the title when slide changes
     useEffect(() => {
