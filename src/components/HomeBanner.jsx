@@ -53,12 +53,12 @@ const HomeBanner = () => {
     }, [title]);
     return (
         <section
-            className="hero-section d-flex align-items-center justify-content-center text-center"
+            className="hero-section d-flex align-items-center justify-content-center text-center heroContentMobile"
             style={{ minHeight: '90vh', backgroundColor: '#1a1a1a', color: 'white' }}
         >
             <div className="container">
-                <div className="row justify-content-start">
-                    <div className="col-lg-8">
+                <div className="row justify-content-start ">
+                    <div className="col-lg-8 ">
                         <AnimatePresence mode="wait">
                             <motion.div
                                 key={index}

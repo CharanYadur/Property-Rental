@@ -40,10 +40,16 @@
 @media (max-width: 768px) {
   .rhombusCard {
     max-width: 300px !important;
-    
+
   }
-   .hero-section{
-     background-position: left;
+
+  .hero-section {
+    background-image: url('../img/MobileBanner.png');
+    background-size: cover;
+    background-position: bottom right;
+  }
+  .heroContentMobile{
+     margin-top: -250px !important;
   }
 }
 
@@ -51,12 +57,20 @@
   .rhombusCard {
     max-width: 260px !important;
   }
-  .hero-section{
-     background-position: left;
+
+  .hero-section {
+    background-image: url('../img/MobileBanner.png');
+    background-size: cover;
+    background-position: bottom right;
+   
+  }
+   .heroContentMobile{   
+    margin-top: -250px !important;
   }
 }
+
 nav.sticky-top {
   position: sticky !important;
   top: 0;
-  z-index: 1020; 
+  z-index: 1020;
 }
