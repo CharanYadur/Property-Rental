@@ -10,21 +10,21 @@ const HomeBanner = () => {
             title: 'Find Your Perfect Rental',
             description: 'Discover thousands of verified properties across top locations. Rent with confidence through our trusted platform.',
             buttonText: 'Browse Rentals',
-            buttonLink: '/rentals',
+            buttonLink: '/properties',
         },
         {
             id: 2,
             title: 'Premium Listings Available',
             description: 'Exclusive collection of luxury apartments, villas, and penthouses with premium amenities.',
             buttonText: 'View Premium',
-            buttonLink: '/premium',
+            buttonLink: '/properties',
         },
         {
             id: 3,
             title: 'List Your Property With Us',
             description: 'Reach thousands of qualified renters. We offer competitive rates and maximum exposure for your property.',
             buttonText: 'List Now',
-            buttonLink: '/list-property',
+            buttonLink: '/properties',
         }
     ];
     const [index, setIndex] = useState(0);
