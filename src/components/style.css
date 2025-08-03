@@ -40,12 +40,19 @@
 @media (max-width: 768px) {
   .rhombusCard {
     max-width: 300px !important;
+    
+  }
+   .hero-section{
+     background-position: left;
   }
 }
 
 @media (max-width: 576px) {
   .rhombusCard {
     max-width: 260px !important;
+  }
+  .hero-section{
+     background-position: left;
   }
 }
 nav.sticky-top {

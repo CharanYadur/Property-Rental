@@ -39,7 +39,7 @@ const FeatureSection = () => {
                     Why Choose Us?
                 </motion.h2>
 
-                <div className="row">
+                <div className="row d-flex justify-content-center">
                     {features.map((feature, index) => (
                         <motion.div
                             key={index}
