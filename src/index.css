@@ -12,13 +12,14 @@ code {
     monospace;
 }
 html, body {
-  overflow-y: scroll;
+  /* overflow-y: auto;          */
+  /* overflow-x: hidden; */
   -ms-overflow-style: none;      
-  scrollbar-width: none;         
-  overflow-x: hidden;          
+  scrollbar-width: none;
 }
 
 html::-webkit-scrollbar,
 body::-webkit-scrollbar {
-  display: none;                
+  display: none;
 }
+
