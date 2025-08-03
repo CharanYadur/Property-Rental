@@ -40,38 +40,6 @@ const FeatureSection = () => {
                 </motion.h2>
 
                 <div className="row">
-                    {/* {features.map((feature, index) => (
-                        <motion.div
-                            key={index}
-                            className="col-sm-12 col-md-6 col-lg-3 mb-4 rhombusCard"
-                            initial={{ opacity: 0, y: 30 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.5, delay: index * 0.2 }}
-                            viewport={{ once: true }}
-                        >
-                            <div
-                                className="card rhombus-wrapper shadow-sm"
-                                style={{
-                                    width: "100%",
-                                    aspectRatio: "1/1",
-                                    background: "#fff",
-                                    transform: "rotate(45deg)",
-                                    borderRadius: "20px",
-                                    overflow: "hidden"
-                                }}
-                            >
-                                <div
-                                    className="rhombus-inner d-flex flex-column justify-content-center align-items-center text-center p-3"
-                                    style={{ transform: "rotate(-45deg)", height: "100%", width: "100%" }}
-                                >
-                                    <div className="mb-3 text-primary">{feature.icon}</div>
-                                    <h5 className="fw-semibold">{feature.title}</h5>
-                                    <p className="text-muted">{feature.description}</p>
-                                </div>
-                            </div>
-
-                        </motion.div>
-                    ))} */}
                     {features.map((feature, index) => (
                         <motion.div
                             key={index}
@@ -96,7 +64,7 @@ const FeatureSection = () => {
                                     className="rhombus-inner d-flex flex-column justify-content-center align-items-center text-center p-3"
                                     style={{ transform: "rotate(-45deg)", height: "100%", width: "100%" }}
                                 >
-                                    <div className="mb-3 text-primary">{feature.icon}</div>
+                                    <div className="mb-3" style={{color:"#ed974c"}}>{feature.icon}</div>
                                     <h5 className="fw-semibold">{feature.title}</h5>
                                     <p className="text-muted">{feature.description}</p>
                                 </div>

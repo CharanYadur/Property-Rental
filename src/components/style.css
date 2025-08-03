@@ -41,9 +41,10 @@
   }
 }
 
-/* Small and below (mobiles, <576px) */
 @media (max-width: 576px) {
   .rhombusCard {
     max-width: 260px !important;
   }
 }
+
+

@@ -3,14 +3,20 @@ import HomeBanner from './HomeBanner'
 import NewlyAdded from './NewlyAdded'
 import FeatureSection from './FeatureSection'
 import Locations from './Locations'
+import CtaSection from './CtaSection'
+import Blogs from './Blogs'
+import FooterSection from './FooterSection'
 
 const Home = () => {
   return (
-    <div>
-      <HomeBanner/>
-      <NewlyAdded/>
-      <FeatureSection/>
-      <Locations/>
+    <div style={{backgroundColor:"#f3ece5ff"}}>
+      <HomeBanner />
+      <NewlyAdded />
+      <FeatureSection />
+      <Locations />
+      <CtaSection />
+      <Blogs />
+      
     </div>
   )
 }

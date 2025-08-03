@@ -32,16 +32,14 @@ const HomeBanner = () => {
 
     const { title, description, buttonText, buttonLink } = slides[index];
 
-    // Auto-slide every 5 seconds
     useEffect(() => {
         const interval = setInterval(() => {
             setIndex((prev) => (prev + 1) % slides.length);
         }, 5000);
         return () => clearInterval(interval);
-    }, [slides.length]); // ✅ added dependency
+    }, [slides.length]); 
 
 
-    // Typing effect for the title when slide changes
     useEffect(() => {
         let current = 0;
         setTypedTitle('');
@@ -49,7 +47,7 @@ const HomeBanner = () => {
             setTypedTitle(title.slice(0, current + 1));
             current++;
             if (current === title.length) clearInterval(typingInterval);
-        }, 80); // Typing speed
+        }, 80); 
 
         return () => clearInterval(typingInterval);
     }, [title]);
@@ -69,7 +67,6 @@ const HomeBanner = () => {
                                 exit={{ opacity: 0, y: -30 }}
                                 transition={{ duration: 0.7 }}
                             >
-                                {/* Typing animated h1 */}
                                 <h1 className="display-5 fw-bold mb-4">
                                     {typedTitle}
                                     <span className="typing-cursor">|</span>
@@ -90,7 +87,6 @@ const HomeBanner = () => {
                 </div>
             </div>
 
-            {/* Blinking cursor style */}
             <style jsx>{`
         .typing-cursor {
           display: inline-block;
