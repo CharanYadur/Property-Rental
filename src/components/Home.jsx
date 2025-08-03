@@ -5,7 +5,6 @@ import FeatureSection from './FeatureSection'
 import Locations from './Locations'
 import CtaSection from './CtaSection'
 import Blogs from './Blogs'
-import FooterSection from './FooterSection'
 
 const Home = () => {
   return (

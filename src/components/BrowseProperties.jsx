@@ -5,7 +5,6 @@ import bangaloreImg from '../img/Bangalore.png';
 import chennaiImg from '../img/Chennai.png';
 import hyderabadImg from '../img/hyderabad.png';
 import puneImg from '../img/Pune.png';
-import { useNavigate } from 'react-router-dom';
 import mumbai1 from '../img/mumbai1.webp';
 import mumbai2 from '../img/mumbai2.png';
 import mumbai3 from '../img/mumbai3.png';
